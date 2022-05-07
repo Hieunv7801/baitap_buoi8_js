@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header bg-info">
+                        ARRAY
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="my-input">Nhập vào số nguyên</label>
+                            <input id="number" class="form-control" type="text" name="">
+                        </div>
+                        <button class="btn btn-danger  mt-3" onclick="Add();">Thêm vào mảng </button>
+                        <div class="card-footer text-muted mt-3" id="array"></div>
+                        <hr>
+                        <h4>Chọn các chức năng bên dưới: </h4>
+                        <button class="btn btn-primary" onclick="TongDuong();">Tổng Các Số Dương</button>
+                        <button class="btn btn-success" onclick="DemSoDuong();">Đếm Các Số Dương</button>
+                        <button class="btn btn-info" onclick="SoNhoNhat();">Số Nhỏ Nhất</button>
+                        <button class="btn btn-warning mt-3" onclick="SoDuongNhoNhat();">Sô Dương Nhỏ Nhất</button>
+                        <button class="btn btn-danger mt-3" onclick="ChanFinall();">Sô Chẵn Cuối Cùng </button>
+                        <button class="btn btn-dark  mt-3" onclick="TangDan();">Xếp tăng dần </button>
+                        <button class="btn btn-success mt-3" onclick="NguyenToDT();">Số nguyên tố đầu tiên </button>
+                        <button class="btn btn-warning mt-3" onclick="SoSanh();">So sánh số dương và số âm </button>
+                        <div class="card-footer text-muted mt-2" id="output"></div>
+                        <h4 class="mt-2">Nhập vào 2 vị trí muốn đổi chỗ</h4>
+                        <input id="vitri1" class="form-control mt-2" type="text" name="">
+                        <input id="vitri2" class="form-control mt-2" type="text" name="">
+                        <button class="btn btn-secondary  mt-3" onclick="DoiCho();">Đổi chỗ giá trị </button> <br>
+                        
+
+                    </div>
+                    <div class="card-footer text-muted" id="doicho"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
