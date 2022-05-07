@@ -47,20 +47,14 @@ function SoDuongNhoNhat(){
     document.getElementById("output").innerHTML = min_duong;
 }
 function ChanFinall(){
-    chan = chanCuoi();
-    document.getElementById("output").innerHTML = chan;
-}
-function chanCuoi(){
     for (var index = 0; index < number.length; index++) {
         //! số chẵn đầu tiên
         //* var index = number.length -1 ; index >= 0; index--
         if(number[index] % 2 == 0){
-            var chanC = number[index]
-           return chanC;
+            var chanC = number[index];
         }
-        return -1;
-    }
-}
+    document.getElementById("output").innerHTML = chanC;
+}}
 function TangDan(){
     for (var index = 0; index < number.length; index++) {
         var so = number.sort(function(soTruoc, soSau){
